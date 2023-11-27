@@ -6,13 +6,10 @@ phases:
       java: corretto11
   build:
     commands:
+      - echo Build started on `date`
       - mvn clean install
   post_build:
     commands:
-      - echo Build completed
+      - echo Build completed on `date`
 artifacts:
-  files:
-    - target/*.jar
-    - scripts/*.sh
-    - appspec.yml
-  discard-paths: yes
+  files: '**/*'
