@@ -14,7 +14,7 @@
     <name>hello-world-java-spring-boot</name>
     <description>hello-world-java-spring-boot</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
